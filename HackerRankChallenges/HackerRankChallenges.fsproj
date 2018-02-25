@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>HackerRankChallenges</RootNamespace>
     <AssemblyName>HackerRankChallenges</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFSharpCoreVersion>4.4.0.0</TargetFSharpCoreVersion>
     <Name>HackerRankChallenges</Name>
@@ -47,9 +47,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
+    <Compile Include="GameOfThrones.fs" />
     <Compile Include="Program.fs" />
     <None Include="App.config" />
-    <Compile Include="GameOfThrones.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
